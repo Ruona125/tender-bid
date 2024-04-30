@@ -35,7 +35,7 @@ const ApprovalCheck = () => {
             <p className='textHeader' >Reason :</p>
             <p className='textDescApproved' >{tenderDetails[0]?.reasons}</p>
         </div>
-
+ 
     }
     if (isLoading === false && tenderDetails?.length === 0) {
         content = null
